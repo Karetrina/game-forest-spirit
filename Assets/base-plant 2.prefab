@@ -140,14 +140,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"base-plant-1","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-2","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-3","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-4","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-5","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"base-plant-1","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-2","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-3","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-4","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-5","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"int","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _objectReferences:
+    - {fileID: 1124785484865242972}
+    - {fileID: 5143048483345379614}
+    - {fileID: 4039101976356872222}
+    - {fileID: 2795673765264918784}
+    - {fileID: 1139286612198182312}
 --- !u!114 &6589084361360829973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,6 +221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TwistedTree_5
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32392459d0f1d4b4cbfdb688d7a63339, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -224,6 +233,11 @@ PrefabInstance:
 --- !u!4 &325490143611721490 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 32392459d0f1d4b4cbfdb688d7a63339, type: 3}
+  m_PrefabInstance: {fileID: 220367362558488825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1139286612198182312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 32392459d0f1d4b4cbfdb688d7a63339, type: 3}
   m_PrefabInstance: {fileID: 220367362558488825}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &242459500469402125
@@ -288,6 +302,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f2c97dec4ed40c24c91ef2e4f671c125, type: 3}
   m_PrefabInstance: {fileID: 242459500469402125}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1124785484865242972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f2c97dec4ed40c24c91ef2e4f671c125, type: 3}
+  m_PrefabInstance: {fileID: 242459500469402125}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3030170121725523025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -340,11 +359,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: TwistedTree_4
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 850b4999a124685428bdce772c82429f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 850b4999a124685428bdce772c82429f, type: 3}
+--- !u!1 &2795673765264918784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 850b4999a124685428bdce772c82429f, type: 3}
+  m_PrefabInstance: {fileID: 3030170121725523025}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3280849061305832378 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 850b4999a124685428bdce772c82429f, type: 3}
@@ -402,6 +430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TwistedTree_3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec4d5d72473cb014fb1c2752d62fe308, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -410,6 +442,11 @@ PrefabInstance:
 --- !u!4 &3694664134057802404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ec4d5d72473cb014fb1c2752d62fe308, type: 3}
+  m_PrefabInstance: {fileID: 3804604940217310543}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4039101976356872222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ec4d5d72473cb014fb1c2752d62fe308, type: 3}
   m_PrefabInstance: {fileID: 3804604940217310543}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5448984504148724815
@@ -464,11 +501,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: TwistedTree_2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5727000765cc014abdbed24e981ed3f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5727000765cc014abdbed24e981ed3f, type: 3}
+--- !u!1 &5143048483345379614 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d5727000765cc014abdbed24e981ed3f, type: 3}
+  m_PrefabInstance: {fileID: 5448984504148724815}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5482032983740902308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d5727000765cc014abdbed24e981ed3f, type: 3}

@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!58 &1798369279300546890
@@ -140,14 +140,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"base-plant-1","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-2","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-3","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-4","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-5","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"base-plant-1","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-2","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-3","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-4","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"base-plant-5","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"int","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _objectReferences:
+    - {fileID: 4149959106335647547}
+    - {fileID: 73420591176395842}
+    - {fileID: 7673279167880966728}
+    - {fileID: 6857136064936338956}
+    - {fileID: 9010599415375011594}
 --- !u!114 &6589084361360829973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,11 +221,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: CommonTree_2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7d6d45596f3b9814a84c67cc6e4a5981, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d6d45596f3b9814a84c67cc6e4a5981, type: 3}
+--- !u!1 &73420591176395842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d6d45596f3b9814a84c67cc6e4a5981, type: 3}
+  m_PrefabInstance: {fileID: 992408691423154451}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &742820224997586680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d6d45596f3b9814a84c67cc6e4a5981, type: 3}
@@ -288,6 +302,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f2413e42535aa8d40acba529dbbc4173, type: 3}
   m_PrefabInstance: {fileID: 3843527613809531498}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4149959106335647547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f2413e42535aa8d40acba529dbbc4173, type: 3}
+  m_PrefabInstance: {fileID: 3843527613809531498}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6046110238707407709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -340,6 +359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CommonTree_4
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7b71342af4e71c4fb67d37b1443ae26, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -348,6 +371,11 @@ PrefabInstance:
 --- !u!4 &6080598673802968246 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d7b71342af4e71c4fb67d37b1443ae26, type: 3}
+  m_PrefabInstance: {fileID: 6046110238707407709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6857136064936338956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d7b71342af4e71c4fb67d37b1443ae26, type: 3}
   m_PrefabInstance: {fileID: 6046110238707407709}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7403248659208212249
@@ -402,6 +430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CommonTree_3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: feb46f0683038db42af2d538b132bf81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -410,6 +442,11 @@ PrefabInstance:
 --- !u!4 &7005109608666851570 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: feb46f0683038db42af2d538b132bf81, type: 3}
+  m_PrefabInstance: {fileID: 7403248659208212249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7673279167880966728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: feb46f0683038db42af2d538b132bf81, type: 3}
   m_PrefabInstance: {fileID: 7403248659208212249}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8200348744844583515
@@ -464,6 +501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CommonTree_5
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d32c87cda25f6094e857169bb6de5f84, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -472,5 +513,10 @@ PrefabInstance:
 --- !u!4 &8522997153238697392 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d32c87cda25f6094e857169bb6de5f84, type: 3}
+  m_PrefabInstance: {fileID: 8200348744844583515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9010599415375011594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d32c87cda25f6094e857169bb6de5f84, type: 3}
   m_PrefabInstance: {fileID: 8200348744844583515}
   m_PrefabAsset: {fileID: 0}
